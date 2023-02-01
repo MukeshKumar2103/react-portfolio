@@ -56,6 +56,7 @@ const Navbar = () => {
           {navLinks.map((nav) => (
             <Link
               to={nav.to}
+              key={nav.id}
               className='font-semibold hover:text-green xl:px-2 lg:px-1'>
               <FontAwesomeIcon icon={nav.icon} className='pr-1' />
               <span className=''>{nav.name}</span>

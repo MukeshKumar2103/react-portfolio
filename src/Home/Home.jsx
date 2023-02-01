@@ -23,66 +23,51 @@ const Home = () => {
       id: 1,
       name: "CALCULATOR",
       img: cal,
-      icon1: faHtml5,
-      icon2: faCss3,
-      icon3: faJsSquare,
-      git: "/",
+      git: "https://github.com/MukeshKumar2103/calculator",
       view: "/",
-      p1: "HTML5",
-      p2: "CSS3",
-      p3: "JAVASCRIPT",
+      p1: "HTML5 -",
+      p2: "CSS3 -",
+      p3: "JAVASCRIPT.",
     },
     {
       id: 2,
-      name: "CALCULATOR",
+      name: "COUNTDOWN - TIMER",
       img: cal,
-      icon1: faHtml5,
-      icon2: faCss3,
-      icon3: faJsSquare,
-      git: "/",
+      git: "https://github.com/MukeshKumar2103/countdown-timer",
       view: "/",
-      p1: "HTML5",
-      p2: "CSS3",
-      p3: "JAVASCRIPT",
+      p1: "HTML5 -",
+      p2: "CSS3 -",
+      p3: "JAVASCRIPT.",
     },
     {
       id: 3,
       name: "CALCULATOR",
       img: cal,
-      icon1: faHtml5,
-      icon2: faCss3,
-      icon3: faJsSquare,
       git: "/",
       view: "/",
-      p1: "HTML5",
-      p2: "CSS3",
-      p3: "JAVASCRIPT",
+      p1: "HTML5 -",
+      p2: "CSS3 -",
+      p3: "JAVASCRIPT.",
     },
     {
       id: 4,
       name: "CALCULATOR",
       img: cal,
-      icon1: faHtml5,
-      icon2: faCss3,
-      icon3: faJsSquare,
       git: "/",
       view: "/",
-      p1: "HTML5",
-      p2: "CSS3",
-      p3: "JAVASCRIPT",
+      p1: "HTML5 -",
+      p2: "CSS3 -",
+      p3: "JAVASCRIPT.",
     },
     {
       id: 5,
-      name: "CALCULATOR",
+      name: "REACT - PORTFOLIO",
       img: cal,
-      icon1: faHtml5,
-      icon2: faCss3,
-      icon3: faJsSquare,
       git: "/",
       view: "/",
-      p1: "HTML5",
-      p2: "CSS3",
-      p3: "JAVASCRIPT",
+      p1: "REACT JS -",
+      p2: "TAILWIND CSS.",
+      p3: "",
     },
   ]
 
@@ -154,13 +139,8 @@ const Home = () => {
                 <p className='text-base font-semibold xl:text-xl'>
                   {projectcard.name}
                 </p>
-                {/* <div className='text-sm pb-4'>
-                  <FontAwesomeIcon icon={projectcard.icon1} className='pr-3' />
-                  <FontAwesomeIcon icon={projectcard.icon2} className='pr-3' />
-                  <FontAwesomeIcon icon={projectcard.icon3} className='pr-3' />
-                </div> */}
                 <div className='text-xs text-gray pb-3'>
-                  {projectcard.p1} - {projectcard.p2} - {projectcard.p3}
+                  {projectcard.p1} {projectcard.p2} {projectcard.p3}
                 </div>
                 <div className='text-base flex flex-row justify-between xl:text-xl'>
                   <a href={projectcard.git} className='hover:text-green'>
