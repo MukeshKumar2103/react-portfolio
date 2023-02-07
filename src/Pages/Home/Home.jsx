@@ -13,25 +13,25 @@ const Home = () => {
   return (
     <div className='w-full h-screen bg-stone-100'>
       <Navbar />
-      <div className=' w-[83%] h-screen absolute top-0 left-64 grid place-content-center'>
-        <div className='flex flex-row items-center'>
+      <div className='w-full h-screen '>
+        <div className='h-full flex flex-col justify-center items-center xl:ml-32 xl:flex-row  xl:left-[400px]'>
           <img
             src={Mukesh}
-            alt=''
-            className='w-64 h-64 border-none rounded-full bg-slate-400'
+            alt='myImage'
+            className='w-52 h-52 border-none rounded-full bg-slate-400 xl:w-72 xl:h-72'
           />
-          <div className='px-16'>
-            <h2 className='font-giraffe text-7xl tracking-wider font-bold'>
+          <div className='pt-20 text-center xl:text-left xl:px-16 xl:pt-0'>
+            <h2 className='text-5xl font-bold tracking-wide font-giraffe xl:text-7xl'>
               MUKESH KUMAR
             </h2>
-            <h5 className='py-3 text-xl tracking-widest font-semibold font-marcellus'>
+            <h5 className='text-lg font-marcellus font-semibold pt-4 pb-7'>
               FRONTEND DEVELOPER
             </h5>
-            <p className='w-[450px] tracking-wide text-slate-500'>
+            <p className='px-5 text-stone-500 xl:w-[500px] xl:px-0 md:px-28 sm:px-24'>
               Creative Photographer based in New York and happy to travel all
               over Europe to capture photos.
             </p>
-            <div className='pt-5'>
+            <div className='py-3'>
               <a href='/' style={socialIcon}>
                 <FontAwesomeIcon icon={faGithub} />
               </a>

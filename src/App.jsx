@@ -8,7 +8,7 @@ import Services from "./Pages/Services/Services"
 
 const App = () => {
   return (
-    <div className='w-full scroll-smooth select-none font-quicksand'>
+    <div className='scroll-smooth select-none font-quicksand  bg-stone-100'>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
