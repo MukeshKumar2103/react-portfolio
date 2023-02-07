@@ -5,24 +5,23 @@ module.exports = {
       boxShadow: {
         "3xl": "0 0px 15px 1px #aaa",
       },
-    },
-    colors: {
-      primary: "#7f8da0",
-      secondary: "#7f8da0",
-      bg: "#d8e3e8",
-      dark: "#041e42",
-      light: "#eee",
-      darkGray: "#777",
-      gray: "#aaa",
-      green: "#31938f",
-      transparent: "transparent",
+      animation: {
+        spinSlow: "spin 10s linear infinite",
+        wiggle: "wiggle 1s ease-in-out infinite",
+      },
+      keyframes: {
+        wiggle: {
+          "0%, 100%": { transform: "rotate(-3deg)" },
+          "50%": { transform: "rotate(3deg)" },
+        },
+      },
     },
     fontFamily: {
-      sans: ["ui-sans-serif", "system-ui"],
-      serif: ["ui-serif", "Georgia"],
-      mono: ["ui-monospace", "SFMono-Regular"],
-      display: ["Oswald"],
-      body: ["Open Sans"],
+      giraffe: ["Giraffe"],
+      krub: ["Krub"],
+      marcellus: ["Marcellus"],
+      simplifica: ["Simplifica"],
+      quicksand: ["Quicksand"],
     },
     // screens: {
     //   ms: "320px",

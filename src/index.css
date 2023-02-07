@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Giraffe";
+  src: url("../src/Assets/fonts/FontsFree-Net-giraffe.ttf");
+}
+
+@font-face {
+  font-family: "Krub";
+  src: url("../src/Assets/fonts/Krub-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Marcellus";
+  src: url("../src/Assets/fonts/Marcellus-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Simplifica";
+  src: url("../src/Assets/fonts/SIMPLIFICA Typeface.ttf");
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("../src/Assets/fonts/Quicksand-VariableFont_wght.ttf");
+}
