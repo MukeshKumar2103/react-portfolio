@@ -154,7 +154,7 @@ const About = () => {
                     <p>{skill.value}</p>
                   </div>
                   <div className='border-2 h-5 bg-white rounded-full'>
-                    <div className='border-none w-[`${skill.walue}`] rounded-full outline-none bg-black '></div>
+                    <div className='border-none  rounded-full outline-none bg-black '></div>
                   </div>
                 </div>
               ))}
