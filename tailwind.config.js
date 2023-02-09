@@ -2,9 +2,6 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      boxShadow: {
-        "3xl": "0 0px 15px 1px #aaa",
-      },
       animation: {
         spinSlow: "spin 10s linear infinite",
         wiggle: "wiggle 1s ease-in-out infinite",

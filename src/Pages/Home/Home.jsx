@@ -18,7 +18,7 @@ const Home = () => {
           <img
             src={Mukesh}
             alt='myImage'
-            className='w-52 h-52 border-none rounded-full bg-slate-400 xl:w-72 xl:h-72'
+            className='w-52 h-52 border-none rounded-full bg-slate-400 xl:w-72 xl:h-72 '
           />
           <div className='pt-20 text-center xl:text-left xl:px-16 xl:pt-0'>
             <h2 className='text-5xl font-bold tracking-wide font-giraffe xl:text-7xl'>

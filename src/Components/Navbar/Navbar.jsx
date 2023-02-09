@@ -9,7 +9,7 @@ const Navbar = () => {
   console.log(mobileNav)
   return (
     <div>
-      <div className='w-full h-80px fixed top-0 z-40 xl:hidden'>
+      <div className='w-full h-80px fixed top-0 z-40 drop-shadow-lg xl:hidden'>
         <div className='w-full h-20 bg-white px-5 flex flex-row items-center justify-between'>
           <div className='text-2xl font-bold'>MUKESHKUMAR</div>
           <FontAwesomeIcon
@@ -22,7 +22,7 @@ const Navbar = () => {
           <Sidebar />
         </div>
       </div>
-      <div className='w-[256px] h-screen bg-white absolute top-0 left-0 flex-col justify-center items-center hidden xl:flex '>
+      <div className='hidden xl:flex '>
         <Sidebar />
       </div>
     </div>
